@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/1moosey1/imagesearch-al/issues"
   },
-  "homepage": "https://github.com/1moosey1/imagesearch-al#readme"
+  "homepage": "https://github.com/1moosey1/imagesearch-al#readme",
+  "dependencies": {
+    "bing.search": "^1.0.1",
+    "express.js": "^1.0.0"
+  }
 }
