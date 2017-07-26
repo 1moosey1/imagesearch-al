@@ -3,13 +3,13 @@ Image Search Abstraction Layer
 
 Usage:
 
-https://murmuring-castle-47824.herokuapp.com/<search-query>
+https://<i></i>murmuring-castle-47824.herokuapp.com/<search-query>
 Returns array of 10 json objects containing search results for images
 
-https://murmuring-castle-47824.herokuapp.com/<search-query>?offset=x
+https://<i></i>murmuring-castle-47824.herokuapp.com/<search-query>?offset=x
 Use ?offset=x as pagination, the page numbers start at 0
 
-https://murmuring-castle-47824.herokuapp.com/imagesearch
+https://<i></i>murmuring-castle-47824.herokuapp.com/imagesearch
 Returns array of 10 json objects containing the most recent queries
 
 
