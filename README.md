@@ -1,26 +1,32 @@
 # Image Search Abstraction Layer
 
 
-Usage:
+## Usage:
 
-https://<i></i>murmuring-castle-47824.herokuapp.com/<search-query>
-Returns array of 10 json objects containing search results for images
+<i> https://<i></i>murmuring-castle-47824.herokuapp.com/<search-query> </i>
+<br/>
+<b> Returns array of 10 json objects containing search results for images </b>
 
-https://<i></i>murmuring-castle-47824.herokuapp.com/<search-query>?offset=x
-Use ?offset=x as pagination, the page numbers start at 0
+<i> https://<i></i>murmuring-castle-47824.herokuapp.com/<search-query>?offset=x </i>
+<br/>
+<b> Use ?offset=x as pagination, the page numbers start at 0 </b>
 
-https://<i></i>murmuring-castle-47824.herokuapp.com/imagesearch
-Returns array of 10 json objects containing the most recent queries
+<i> https://<i></i>murmuring-castle-47824.herokuapp.com/imagesearch </i>
+<br/>
+<b> Returns array of 10 json objects containing the most recent queries </b>
 
 
-Examples:
-Examples will cease to work by Aug 24, 2017 due to bing search key expiration
+## Examples:
+<i> Examples will cease to work by Aug 24, 2017 due to bing search key expiration </i>
 
-Query for images relating to fish
+<b> Query for images relating to fish </b> 
+<br/>
 https://murmuring-castle-47824.herokuapp.com/fish
 
-Page 2 of images relating to fish
+<b> Page 2 of images relating to fish </b> 
+<br/>
 https://murmuring-castle-47824.herokuapp.com/fish?offset=1
 
-Recent search history
+<b> Recent search history </b> 
+<br/>
 https://murmuring-castle-47824.herokuapp.com/imagesearch
