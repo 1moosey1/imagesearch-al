@@ -45,6 +45,9 @@ function parseResults (results) {
 
 function saveQuery (query) {
 
+    if(query === "favicon.ico")
+        return;
+
     var collection = module.exports.db.collection("search-history");
     collection.insertOne({ query: query }, function (err) {
 
