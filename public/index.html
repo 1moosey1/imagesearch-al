@@ -5,10 +5,60 @@
     <meta charset="UTF-8">
     <title> Image Search Abstraction Layer </title>
 
+    <style>
+        body { text-align:center }
+    </style>
+
 </head>
 <body>
 
-    <h1> Image Search Abstraction Layer </h1>
+    <h1 style="text-align:center;"> Image Search Abstraction Layer </h1>
+
+    <h2> Usage: </h2>
+
+    <p>
+        <i> https://murmuring-castle-47824/&lt;search-query&gt; </i>
+        <br/>
+        <b> Returns array of 10 json objects containing search results for images </b>
+
+        <br/><br/>
+
+        <i> https://murmuring-castle-47824/&lt;search-query&gt;?offset=x </i>
+        <br/>
+        <b> Use ?offset=x as pagination, the page numbers start at 0 </b>
+
+        <br/><br/>
+
+        <i>https://murmuring-castle-47824/imagesearch</i>
+        <br/>
+        <b>Returns array of 10 json objects containing the most recent queries</b>
+    </p>
+
+    <br>
+
+    <h2> Examples: </h2>
+
+    <p>
+        <b> Query for images relating to fish </b><br/>
+        <a href="https://murmuring-castle-47824/fish">
+            https://murmuring-castle-47824/fish
+        </a>
+
+        <br/><br/>
+
+        <b> Page 2 of images relating to fish </b><br/>
+        <a href="https://murmuring-castle-47824/fish?offset=1">
+            https://murmuring-castle-47824/fish?offset=1
+        </a>
+
+        <br/><br/>
+
+        <b> Recent search history </b><br/>
+        <a href="https://murmuring-castle-47824/fish">
+            https://murmuring-castle-47824/imagesearch
+        </a>
+
+    </p>
 
 </body>
 </html>
