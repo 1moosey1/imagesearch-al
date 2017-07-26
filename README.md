@@ -1,9 +1,11 @@
 # Image Search Abstraction Layer
-
+Homepage:
+<br/>
+https://murmuring-castle-47824.herokuapp.com/
 
 ## Usage:
 
-<i> https://<i></i>murmuring-castle-47824.herokuapp.com/<search-query> </i>
+<i> https://<i></i>murmuring-castle-47824.herokuapp.com/&lt;search-query&gt; </i>
 <br/>
 <b> Returns array of 10 json objects containing search results for images </b>
 
